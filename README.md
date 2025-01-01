@@ -1,0 +1,1 @@
+This example demonstrates a common error in Ada programming related to subtype initialization.  The code attempts to initialize a variable 'X' of subtype 'Positive' to 0, which falls outside the range of 'Positive'.  Ada's strong type system detects this at compile time, leading to an error. The solution demonstrates how to correctly initialize such variables.
